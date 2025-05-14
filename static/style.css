@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/static/images/pass.jpg');
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background during scroll */
+}
+
+.background {
+    backdrop-filter: blur(3px); /* Apply blur effect */
+    width: 100vw; /* Ensure it covers the full viewport width */
+    height: 100vh; /* Ensure it covers the full viewport height */
+    position: fixed; /* Stay fixed on the screen */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Send it behind all other content */
+}
+.container {
+    max-width: 500px;
+    margin: 90px auto;
+    /*background-color: rgba(255, 255, 255, 0.5);*/ 
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(
+          135deg,
+          rgba(205, 121, 113, 0.826),
+          rgba(111, 218, 129, 0.4)
+        ); 
+}
+
+h1 {
+    text-align: center;
+    color: #f0eded;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #090808;
+}
+
+input[type="number"], input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3dd744;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e8e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
